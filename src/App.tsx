@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard/dashboard.component";
+import Notifications from "./pages/Notifications/notifications.component";
 import { ConfigProvider } from "antd";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       >
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/notification" element={<Notifications />} />
         </Routes>
       </ConfigProvider>
     </>
