@@ -1,10 +1,17 @@
 import { FC } from "react";
+import { Flex } from "antd";
+import TitleMenu from "../../components/TitleMenu/title-menu.component";
+import Notification from "../../components/Notification/notification.component";
+import { dummyDataNotification } from "../../dummy-data";
 
 const Notifications: FC = () => {
   return (
-    <div className="grid gap-4 place-items-center h-[100vh] w-[100vw]">
-      <h1>{`Notifications Tak keburu :(`}</h1>
-    </div>
+    <Flex gap={8} vertical>
+      <TitleMenu />
+      {dummyDataNotification.map((data, index) => (
+        <Notification title={data.title} message={data.message} />
+      ))}
+    </Flex>
   );
 };
 

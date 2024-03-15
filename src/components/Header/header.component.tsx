@@ -13,7 +13,7 @@ const HeaderComponent: FC = () => {
           <div>
             <h1 className="text-2xl font-extrabold text-red-600">KerjaYuk!</h1>
           </div>
-          <Link to="/notification">
+          <Link to="/notification" className="flex flex-col justify-center">
             <Badge dot offset={[-12, 10]}>
               <Avatar
                 style={{ backgroundColor: "transparent" }}

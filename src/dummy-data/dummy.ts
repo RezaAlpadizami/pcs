@@ -55,3 +55,31 @@ export const dummyAvatars = [
       profileImg: profileImg2,
     },
   ];
+
+
+  export const dummyDataNotification = [
+    {
+      title: "Reimbursement",
+      message: "Your submission Lorem ipsum dolor sit ame with the with a total cost of 50.000 has been paid, please check your BRIMO application, Thankyou",
+    },
+    {
+      title: "Sickness",
+      message: "Your submission Lorem ipsum dolor sit ame with the with a total cost of 50.000 has been paid, please check your BRIMO application, Thankyou",
+    },
+    {
+      title: "Reimbursement",
+      message: "Your submission Lorem ipsum dolor sit ame with the with a total cost of 50.000 has been paid, please check your BRIMO application, Thankyou",
+    },
+    {
+      title: "Reimbursement",
+      message: "Your submission Lorem ipsum dolor sit ame with the with a total cost of 50.000 has been paid, please check your BRIMO application, Thankyou",
+    },
+    {
+      title: "Overtime",
+      message: "Your submission Lorem ipsum dolor sit ame with the with a total cost of 50.000 has been paid, please check your BRIMO application, Thankyou",
+    },
+    {
+      title: "Overtime",
+      message: "Your submission Lorem ipsum dolor sit ame with the with a total cost of 50.000 has been paid, please check your BRIMO application, Thankyou",
+    },
+  ];

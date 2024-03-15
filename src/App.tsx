@@ -20,10 +20,12 @@ const App = () => {
           },
         }}
       >
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/notification" element={<Notifications />} />
-        </Routes>
+        <div className="w-[30vw]">
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/notification" element={<Notifications />} />
+          </Routes>
+        </div>
       </ConfigProvider>
     </>
   );
